@@ -27,7 +27,7 @@ class Singer  extends BaseController{
        foreach ($records as $record) {
         $nameLink = anchor("singer/showme/$record->id",$record->name);
        
-        $table->addRow($nameLink,$record->city,$record->image);
+        $table->addRow($nameLink,$record->city,"<img src=\"/image/".$record->image."\">");
        }
       
         $template = [
