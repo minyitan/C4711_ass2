@@ -10,6 +10,10 @@ and open the template in the editor.
             <name>杨千嬅</name>
             <city>HongKong China.</city>
             <image>yang.jpg</image>
+            <food>banana</food>
+            <age>18</age>
+            <sex>women</sex>
+            <song>少女的祈祷，处处吻，可惜我是水瓶座，小城大事</song>
         </singer>
         
          <singer>
@@ -17,6 +21,10 @@ and open the template in the editor.
             <name>陈奕迅</name>
             <city>HongKong China.</city>
             <image>cheng.jpg</image>
+            <food>apple</food>
+            <age>18</age>
+            <sex>men</sex>
+            <song>我的快乐时代、K歌之王、十年、富士山下、好久不见</song>
         </singer>
         
         
@@ -25,6 +33,10 @@ and open the template in the editor.
             <name>张学友</name>
             <city>HongKong China.</city>
             <image>zhang.jpg</image>
+            <food>orange</food>
+            <age>18</age>
+            <sex>men</sex>
+            <song>遥远的她，吻别，李香兰，如果这都不算爱</song>
         </singer>
         
         
@@ -33,17 +45,29 @@ and open the template in the editor.
             <name>刘德华</name>
             <city>HongKong China.</city>
             <image>liu.jpg</image>
+            <food>hot pot</food>
+            <age>18</age>
+            <sex>men</sex>
+            <song>无间道、天若有情、天下无贼、旺角卡门、暗战、阿虎</song>
         </singer>
           <singer>
             <id>5</id>
             <name>梅艳芳</name>
             <city>HongKong China.</city>
             <image>mei.jpg</image>
+            <food>Roast duck</food>
+            <age>18</age>
+            <sex>women</sex>
+            <song>夕阳之歌，亲密爱人，似水流年，似是故人来，女人花</song>
         </singer>
         <singer>
             <id>6</id>
             <name>谭咏麟</name>
             <city>HongKong China.</city>
             <image>tan.jpg</image>
+            <food>banana</food>
+            <age>18</age>
+            <sex>men</sex>
+            <song>爱的根源，爱在深秋，爱情陷阱，水中花，一生中最爱</song>
         </singer>
 </root>
