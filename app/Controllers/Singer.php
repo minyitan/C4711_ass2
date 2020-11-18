@@ -22,12 +22,12 @@ class Singer  extends BaseController{
        $table = new \CodeIgniter\View\Table();
        
        $headings = $singers->fields;
-       $displayHeadings = array_slice($headings, 1, 8);
+       $displayHeadings = array_slice($headings, 1, 3);
        $table->setHeading(array_map('ucfirst', $displayHeadings));
        foreach ($records as $record) {
         $nameLink = anchor("singer/showme/$record->id",$record->name);
        
-        $table->addRow($nameLink,$record->city,"<img width=\"360px\" height=\"240px\" src=\"/image/".$record->image."\">",$record->food,$record->age,$record->sex,$record->song);
+        $table->addRow($nameLink,$record->city,"<img width=\"360px\" height=\"240px\" src=\"/image/".$record->image."\">");
        }
       
         $template = [
